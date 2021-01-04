@@ -8,5 +8,6 @@
 #ifndef common_h
 #define common_h
 
+#include <vector>
 
 #endif /* common_h */

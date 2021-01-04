@@ -10,4 +10,15 @@
 
 #include <stdio.h>
 
+class Output {
+public:
+  void Print(int n_step);
+  void Exit();
+  
+  
+  
+  
+  
+};
+
 #endif /* Output_hpp */

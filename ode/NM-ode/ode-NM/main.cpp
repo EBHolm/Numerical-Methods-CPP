@@ -5,10 +5,18 @@
 //  Created by Emil Brinch Holm on 04/01/2021.
 //
 
-#include <iostream>
 
-int main(int argc, const char * argv[]) {
-  // insert code here...
-  std::cout << "Hello, World!\n";
+#include "odeDriver.hpp"
+
+int main() {
+
+  // Choose which stepper to use
+  Stepper* myStepper = new Stepper();
+  
+  
+  // Generic driver
+  odeDriver myOde(myStepper);
+  myOde.Integrate();
+  
   return 0;
 }

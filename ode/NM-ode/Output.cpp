@@ -6,3 +6,18 @@
 //
 
 #include "Output.hpp"
+
+void Output::Print(int n_step) {
+
+}
+
+/*
+
+
+ */
+
+void Output::Exit() {
+
+}
+
+

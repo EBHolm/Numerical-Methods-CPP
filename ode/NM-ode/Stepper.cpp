@@ -6,3 +6,8 @@
 //
 
 #include "Stepper.hpp"
+
+void Stepper::Step() {
+
+}
+

@@ -8,6 +8,15 @@
 #ifndef Stepper_hpp
 #define Stepper_hpp
 
-#include <stdio.h>
+class Stepper {
+public:
+  void Step();
+
+
+};
+
+
+
+
 
 #endif /* Stepper_hpp */
